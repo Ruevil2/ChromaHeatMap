@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application>
+    <title>Heat Map for Razer Chroma</title>
+    <description>Single or multi color heat map effect.</description>
+    <author name="ThrottleMunky" contact="https://github.com"/>
+    <device_supported keyboard="1" mouse="0" headset="0" mousemat="0" keypad="0"/>
+	<category game="0"/>
+</application>

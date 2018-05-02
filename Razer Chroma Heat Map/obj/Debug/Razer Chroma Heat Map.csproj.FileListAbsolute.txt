@@ -1,0 +1,60 @@
+c:\users\fuckass\source\repos\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Razer Chroma Heat Map.exe.config
+c:\users\fuckass\source\repos\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Razer Chroma Heat Map.exe
+c:\users\fuckass\source\repos\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Razer Chroma Heat Map.pdb
+c:\users\fuckass\source\repos\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer_Chroma_Heat_Map.Form1.resources
+c:\users\fuckass\source\repos\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer_Chroma_Heat_Map.Properties.Resources.resources
+c:\users\fuckass\source\repos\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.csproj.GenerateResource.Cache
+c:\users\fuckass\source\repos\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.csproj.CoreCompileInputs.cache
+c:\users\fuckass\source\repos\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.exe
+c:\users\fuckass\source\repos\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.pdb
+c:\users\fuckass\source\repos\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Corale.Colore.dll
+c:\users\fuckass\source\repos\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Corale.Colore.xml
+c:\users\fuckass\source\repos\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.csprojResolveAssemblyReference.cache
+F:\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Razer Chroma Heat Map.exe.config
+F:\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Razer Chroma Heat Map.exe
+F:\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Razer Chroma Heat Map.pdb
+F:\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Corale.Colore.dll
+F:\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Corale.Colore.xml
+F:\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.csprojResolveAssemblyReference.cache
+F:\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer_Chroma_Heat_Map.Form1.resources
+F:\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer_Chroma_Heat_Map.Properties.Resources.resources
+F:\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.csproj.GenerateResource.Cache
+F:\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.csproj.CoreCompileInputs.cache
+F:\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.exe
+F:\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.pdb
+I:\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Razer Chroma Heat Map.exe.config
+I:\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Razer Chroma Heat Map.exe
+I:\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Razer Chroma Heat Map.pdb
+I:\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Corale.Colore.dll
+I:\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Corale.Colore.xml
+I:\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.csprojResolveAssemblyReference.cache
+I:\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer_Chroma_Heat_Map.Form1.resources
+I:\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer_Chroma_Heat_Map.Properties.Resources.resources
+I:\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.csproj.GenerateResource.Cache
+I:\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.csproj.CoreCompileInputs.cache
+I:\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.exe
+I:\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.pdb
+I:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Razer Chroma Heat Map.exe.config
+I:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Razer Chroma Heat Map.exe
+I:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Razer Chroma Heat Map.pdb
+I:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Corale.Colore.dll
+I:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Corale.Colore.xml
+I:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.csprojResolveAssemblyReference.cache
+I:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer_Chroma_Heat_Map.Form1.resources
+I:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer_Chroma_Heat_Map.Properties.Resources.resources
+I:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.csproj.GenerateResource.Cache
+I:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.csproj.CoreCompileInputs.cache
+I:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.exe
+I:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.pdb
+F:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.csprojResolveAssemblyReference.cache
+F:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer_Chroma_Heat_Map.Form1.resources
+F:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer_Chroma_Heat_Map.Properties.Resources.resources
+F:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.csproj.GenerateResource.Cache
+F:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.csproj.CoreCompileInputs.cache
+F:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Razer Chroma Heat Map.exe.config
+F:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Razer Chroma Heat Map.exe
+F:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Razer Chroma Heat Map.pdb
+F:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Corale.Colore.dll
+F:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\bin\Debug\Corale.Colore.xml
+F:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.exe
+F:\Chroma Apps\Razer Chroma Heat Map\Razer Chroma Heat Map\obj\Debug\Razer Chroma Heat Map.pdb
