@@ -11,7 +11,7 @@ using KeyboardCustom = Corale.Colore.Razer.Keyboard.Effects.Custom;
 using KeypadCustom = Corale.Colore.Razer.Keypad.Effects.Custom;
 using MouseCustom = Corale.Colore.Razer.Mouse.Effects.CustomGrid;
 using MousePadCustom = Corale.Colore.Razer.Mousepad.Effects.Custom;
-
+using System.ComponentModel;
 
 namespace Razer_Chroma_Heat_Map
 {
@@ -424,8 +424,8 @@ namespace Razer_Chroma_Heat_Map
 
         private void applyButton_Click(object sender, EventArgs e)
         {
-            string colorType = colorChoiceListBox.SelectedItem.ToString();
-            string timerType = timerTypeListBox.SelectedItem.ToString();
+			ColorType colorType = (ColorType)colorChoiceListBox.SelectedValue;
+            TimerType timerType = (TimerType)timerTypeListBox.SelectedValue;
             buildRate = int.Parse(buildRateTextBox.Text.ToString());
             decayRate = int.Parse(decayRateTextBox.Text.ToString());
             maxValue = int.Parse(maxHeatValueTextBox.Text.ToString());
@@ -443,100 +443,100 @@ namespace Razer_Chroma_Heat_Map
 
             gHook.unhook();
 
-            if (colorType.ToString() == "White")
-            {
-                NUM_COLORS = 2;
-                curColor = new double[2, 3] { { 0, 0, 0 }, { 1, 1, 1 } };
-            }
-            else if (colorType == "Red")
-            {
-                NUM_COLORS = 2;
-                curColor = new double[2, 3] { { 0, 0, 0 }, { 1, 0, 0 } };
-            }
-            else if (colorType == "Green")
-            {
-                NUM_COLORS = 2;
-                curColor = new double[2, 3] { { 0, 0, 0 }, { 0, 1, 0 } };
-            }
-            else if (colorType == "Blue")
-            {
-                NUM_COLORS = 2;
-                curColor = new double[2, 3] { { 0, 0, 0 }, { 0, 0, 1 } };
-            }
-            else if (colorType == "Teal")
-            {
-                NUM_COLORS = 2;
-                curColor = new double[2, 3] { { 0, 0, 0 }, { 0, 1, 1 } };
-            }
-            else if (colorType == "Purple")
-            {
-                NUM_COLORS = 2;
-                curColor = new double[2, 3] { { 0, 0, 0 }, { 1, 0, 1 } };
-            }
-            else if (colorType == "Yellow")
-            {
-                NUM_COLORS = 2;
-                curColor = new double[2, 3] { { 0, 0, 0 }, { 1, 1, 0 } };
-            }
-            else if (colorType == "Test Color") // Color type for testing new palettes
-            {
-                NUM_COLORS = 5;
-                //                                Blue     -     Green     -     Red      -     Yellow    -     White
-                curColor = new double[5, 3] { { 0, 0, .25 }, { 0, .125, 0 }, { .5, 0, 0 }, { .75, .75, 0 }, { 1, 1, 1 } };
-            }
-            else if (colorType == "Blue-Green-Red")
-            {
-                // Multi color RGB Spectrum
-                NUM_COLORS = 3;
-                if (scaleBrightness)
-                    curColor = new double[3, 3] { { 0, 0, .25 }, { 0, .25, 0 }, { 1, 0, 0 } }; 
-                else
-                    curColor = new double[3, 3] { { 0, 0, 1 }, { 0, 1, 0 }, { 1, 0, 0 } };
-            }
-            else if (colorType == "Blue-Green-Red-Yellow")
-            {
-                // Multi color RGB Spectrum
-                NUM_COLORS = 4;
-                if (scaleBrightness)
-                    curColor = new double[4, 3] { { 0, 0, .25 }, { 0, .25, 0 }, { .5, 0, 0 }, { 1, 1, 0 } };
-                else
-                    curColor = new double[4, 3] { { 0, 0, 1 }, { 0, 1, 0 }, { 1, 0, 0 }, { 1, 1, 0 } };
-            }
-            else if (colorType == "Blue-Green-Red-Yellow-White")
-            {
-                // Multi color RGB Spectrum
-                NUM_COLORS = 5;
-                if (scaleBrightness)
-                    curColor = new double[5, 3] { { 0, 0, .25 }, { 0, .25, 0 }, { .5, 0, 0 }, { .75, .75, 0 }, { 1, 1, 1 } };
-                else
-                    curColor = new double[5, 3] { { 0, 0, 1 }, { 0, 1, 0 }, { 1, 0, 0 }, { 1, 1, 0 }, { 1, 1, 1 } };
-            }
-
+			switch (colorType)
+			{
+				case (ColorType.White):
+					NUM_COLORS = 2;
+					curColor = new double[2, 3] { { 0, 0, 0 }, { 1, 1, 1 } };
+					break;
+				case (ColorType.Red):
+					NUM_COLORS = 2;
+					curColor = new double[2, 3] { { 0, 0, 0 }, { 1, 0, 0 } };
+					break;
+				case (ColorType.Green):
+					NUM_COLORS = 2;
+					curColor = new double[2, 3] { { 0, 0, 0 }, { 0, 1, 0 } };
+					break;
+				case (ColorType.Blue):
+					NUM_COLORS = 2;
+					curColor = new double[2, 3] { { 0, 0, 0 }, { 0, 0, 1 } };
+					break;
+				case (ColorType.Teal):
+					NUM_COLORS = 2;
+					curColor = new double[2, 3] { { 0, 0, 0 }, { 0, 1, 1 } };
+					break;
+				case (ColorType.Purple):
+					NUM_COLORS = 2;
+					curColor = new double[2, 3] { { 0, 0, 0 }, { 1, 0, 1 } };
+					break;
+				case (ColorType.Yellow):
+					NUM_COLORS = 2;
+					curColor = new double[2, 3] { { 0, 0, 0 }, { 1, 1, 0 } };
+					break;
+				case (ColorType.TestColor):
+					NUM_COLORS = 5;
+					//                                Blue     -     Green     -     Red      -     Yellow    -     White
+					curColor = new double[5, 3] { { 0, 0, .25 }, { 0, .125, 0 }, { .5, 0, 0 }, { .75, .75, 0 }, { 1, 1, 1 } };
+					break;
+				case (ColorType.BlueGreenRedSequence):
+					// Multi color RGB Spectrum
+					NUM_COLORS = 3;
+					if (scaleBrightness)
+						curColor = new double[3, 3] { { 0, 0, .25 }, { 0, .25, 0 }, { 1, 0, 0 } };
+					else
+						curColor = new double[3, 3] { { 0, 0, 1 }, { 0, 1, 0 }, { 1, 0, 0 } };
+					break;
+				case (ColorType.BlueGreenRedYellowSequence):
+					// Multi color RGB Spectrum
+					NUM_COLORS = 4;
+					if (scaleBrightness)
+						curColor = new double[4, 3] { { 0, 0, .25 }, { 0, .25, 0 }, { .5, 0, 0 }, { 1, 1, 0 } };
+					else
+						curColor = new double[4, 3] { { 0, 0, 1 }, { 0, 1, 0 }, { 1, 0, 0 }, { 1, 1, 0 } };
+					break;
+				case (ColorType.BlueGreenRedYellowWhiteSequence):
+					// Multi color RGB Spectrum
+					NUM_COLORS = 5;
+					if (scaleBrightness)
+						curColor = new double[5, 3] { { 0, 0, .25 }, { 0, .25, 0 }, { .5, 0, 0 }, { .75, .75, 0 }, { 1, 1, 1 } };
+					else
+						curColor = new double[5, 3] { { 0, 0, 1 }, { 0, 1, 0 }, { 1, 0, 0 }, { 1, 1, 0 }, { 1, 1, 1 } };
+					break;
+			}
+			
             aTimer.Enabled = false;
             bTimer.Enabled = false;
             cTimer.Enabled = false;
 
-            if (timerType == "Heat Map")
-            {
-                Debug.WriteLine("Heat Map");
-                gHook.hook();
-                aTimer.Enabled = true;
-            }
-            else if (timerType == "Starlight")
-            {
-                Debug.WriteLine("Starlight");
-                bTimer.Enabled = true;
-            }
-            else if (timerType == "NyanCat")
-            {
-                Debug.WriteLine("NyanCat");
-                NUM_COLORS = 5;
-                curColor = new double[5, 3] { { 0, 0, .25 }, { 0, .25, 0 }, { .5, 0, 0 }, { .75, .75, 0 }, { 1, 1, 1 } };
-                nyanCatColCount = 0;
-                cTimer.Enabled = true;
-            }
+			switch (timerType)
+			{
+				case (TimerType.HeatMap):
+					Debug.WriteLine("Heat Map");
+					gHook.hook();
+					aTimer.Enabled = true;
+					break;
+				case (TimerType.StarLight):
+					Debug.WriteLine("Starlight");
+					bTimer.Enabled = true;
+					break;
+				case (TimerType.NyanCat):
+					Debug.WriteLine("NyanCat");
+					NUM_COLORS = 5;
+					curColor = new double[5, 3] { { 0, 0, .25 }, { 0, .25, 0 }, { .5, 0, 0 }, { .75, .75, 0 }, { 1, 1, 1 } };
+					nyanCatColCount = 0;
+					cTimer.Enabled = true;
+					break;
+			}
 
-        }
+			Properties.Settings.Default.TimerType = timerType;
+			Properties.Settings.Default.ColorType = colorType;
+			Properties.Settings.Default.BuildRate = buildRate;
+			Properties.Settings.Default.DecayRate = decayRate;
+			Properties.Settings.Default.MaxValue = maxValue;
+			Properties.Settings.Default.KeepLEDsLitCold = ledOFFCold;
+			Properties.Settings.Default.ScaleBrightness = scaleBrightness;
+			Properties.Settings.Default.Save();
+		}
 
         private void exitButton_Click(object sender, EventArgs e)
         {
@@ -544,5 +544,90 @@ namespace Razer_Chroma_Heat_Map
             this.Close();
         }
 
-    }
+		private void Form1_Load(object sender, EventArgs e)
+		{
+			TimerType initialTimerType = Properties.Settings.Default.TimerType;
+			timerTypeListBox.BindEnumToListBox(initialTimerType);
+
+			ColorType initialColorType = Properties.Settings.Default.ColorType;
+			colorChoiceListBox.BindEnumToListBox(initialColorType);
+
+			int buildRate = Properties.Settings.Default.BuildRate;
+			int decayRate = Properties.Settings.Default.DecayRate;
+			int maxValue = Properties.Settings.Default.MaxValue;
+			bool keepLEDsLitCold = Properties.Settings.Default.KeepLEDsLitCold;
+			bool scaleBrightness = Properties.Settings.Default.ScaleBrightness;
+
+			this.buildRateTextBox.Text = $"{buildRate}";
+			this.decayRateTextBox.Text = $"{decayRate}";
+			this.maxHeatValueTextBox.Text = $"{maxValue}";
+			this.coldOFFCheckBox.Checked = keepLEDsLitCold;
+			this.scaleBrightnessCheckbox.Checked = scaleBrightness;
+		}
+	}
+
+	public enum TimerType
+	{
+		[Description("Heat Map")]
+		HeatMap,
+		StarLight,
+		NyanCat
+	}
+
+	public enum ColorType
+	{
+		[Obsolete]
+		TestColor,
+		White,
+		Red,
+		Green,
+		Blue,
+		Teal,
+		Purple,
+		Yellow,
+		[Description("Blue-Green-Red")]
+		BlueGreenRedSequence,
+		[Description("Blue-Green-Red-Yellow")]
+		BlueGreenRedYellowSequence,
+		[Description("Blue-Green-Red-Yellow-White")]
+		BlueGreenRedYellowWhiteSequence
+	}
+	public static class ListBoxExt
+	{
+		public static void BindEnumToListBox<T>(this ListBox listBox, T defaultSelection) where T : IConvertible
+		{
+			var list = Enum.GetValues(typeof(T))
+				.Cast<T>()
+				.Where(item => !item.IsObsolete())
+				.Select(value => new
+				{
+					Description = (Attribute.GetCustomAttribute(value.GetType().GetField(value.ToString()), typeof(DescriptionAttribute)) as DescriptionAttribute)?.Description ?? value.ToString(),
+					Value = value
+				})
+				.OrderBy(item => item.Value.ToString())
+				.ToList();
+
+			listBox.DataSource = list;
+			listBox.DisplayMember = "Description";
+			listBox.ValueMember = "Value";
+
+			foreach (var opts in list)
+			{
+				if (opts.Value.ToString() == defaultSelection.ToString())
+				{
+					listBox.SelectedItem = opts;
+				}
+			}
+		}
+
+		public static bool IsObsolete(this IConvertible value)
+		{
+			var enumType = value.GetType();
+			var enumName = enumType.GetEnumName(value);
+			var fieldInfo = enumType.GetField(enumName);
+			return Attribute.IsDefined(fieldInfo, typeof(ObsoleteAttribute));
+		}
+	}
 }
+
+
